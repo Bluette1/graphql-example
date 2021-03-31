@@ -17,7 +17,7 @@ const schema = new GraphQLSchema({
 app.use(
   "/graphql",
   graphqlHTTP({
-    graphql: true,
+    graphiql: true,
     schema: schema,
   })
 );
